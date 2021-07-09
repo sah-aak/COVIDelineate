@@ -1,5 +1,6 @@
 .infoBox{
     flex:1;
+    cursor:pointer;
 }
 .infoBox:hover{
     cursor: pointer;
@@ -19,4 +20,32 @@
     font-weight: 700 !important;
     font-size: 0.8rem !important;
     margin-top: 15px !important;
-  }
+}
+
+.infoBox--selected{
+    border-top: 10px solid;
+}
+
+.infoBox--red{
+    border-color:red;
+}
+.infoBox--red .infoBox_cases{
+    color:red;
+}
+
+.infoBox--green{
+    border-color: greenyellow;
+}
+.infoBox--green .infoBox_cases{
+    color:greenyellow;
+}
+
+.infoBox--black{
+    border-color: black;
+}
+.infoBox--black .infoBox_cases{
+    color:black;
+}
+
+
+

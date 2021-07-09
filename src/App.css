@@ -15,6 +15,9 @@ body{
 .app_left{
   flex: 0.9;
 }
+.app_dropdown{
+  background-color: white;
+}
 .app_header{
   display: flex;
   justify-content: space-between;
